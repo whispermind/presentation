@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>React JS</section>
+			<section>
+				<section>What is React JS?</section>
+				<section>
+					React is a JavaScript-based UI development library. Facebook and an open-source developer community run
+					it. Although React is a library rather than a language, it is widely used in web development. The library
+					first appeared in May 2013 and is now one of the most commonly used frontend libraries for web development.
+
+					React offers various extensions for entire application architectural support, such as Flux and React Native,
+					beyond mere UI.</section>
+			</section>
+			<section>
+				<section>Why React?</section>
+				<section>React makes it easier to create dynamic web applications because
+					it requires less coding and offers more functionality, as opposed to JavaScript, where coding often gets
+					complex very quickly.</section>
+				<section>React uses Virtual DOM, thereby creating web applications faster. Virtual DOM
+					compares the components’ previous states and updates only the items in the Real DOM that were changed, instead
+					of updating all of the components again, as conventional web applications do. </section>
+				<section>Components are the building blocks of any React application, and a single app
+					usually consists of multiple components. These components have their logic and controls, and they can be
+					reused throughout the application, which in turn dramatically reduces the application’s development time.
+				</section>
+				<section>React follows a unidirectional data flow. This means that when designing a
+					React app, developers often nest child components within parent components. Since the data flows in a single
+					direction, it becomes easier to debug errors and know where a problem occurs in an application at the moment
+					in question.</section>
+				<section>React is easy to learn, as it mostly combines basic HTML and JavaScript concepts
+					with some beneficial additions. Still, as is the case with other tools and frameworks, you have to spend some
+					time to get a proper understanding of React’s library.</section>
+				<section>We already know that React is used for
+					the development of web applications, but that’s not all it can do. There is a framework called React Native,
+					derived from React itself, that is hugely popular and is used for creating beautiful mobile applications. So,
+					in reality, React can be used for making both web and mobile applications.</section>
+				<section>Facebook has released a Chrome extension that can be used to debug
+					React applications. This makes the process of debugging React web applications faster and easier.</section>
+				<section>The above reasons more than justify the popularity of the React library and why it is being adopted by
+					a large number of organizations and businesses. Now let’s familiarize ourselves with React’s features.
+				</section>
+			</section>
+			<section>
+				<section>Features of React</section>
+				<section>React offers some outstanding features that make it the most widely adopted library for frontend app
+					development. Here is the list of those salient features.</section>
+				<section>JSX is a JavaScript syntactic extension. It's a term used in React to describe how the user interface
+					should seem. You can write HTML structures in the same file as JavaScript code by utilizing JSX.</section>
+				<section>The Virtual DOM is React's lightweight version of the Real DOM. Real DOM manipulation is substantially
+					slower than virtual DOM manipulation. When an object's state changes, Virtual DOM updates only that object in
+					the real DOM rather than all of them.</section>
+				<section>When the state of an object changes in a React application, VDOM gets updated. It then compares its
+					previous state and then updates only those objects in the real DOM instead of updating all of the objects.
+					This makes things move fast, especially when compared to other front-end technologies that have to update each
+					object even if only a single object changes in the web application.</section>
+			</section>
+			<section>
+				<section>Architecture </section>
+				<section>React is an un-opinionated framework in the front-end ecosystem. Its versatile nature does not provide
+					a way to organize and structure a web application. The way an application is organized and structured is how a
+					developer or a team of developers interact with it. A project with no logical structure means that everyone
+					can do whatever they want inside it. A well-structured project requires developers to think deeper about their
+					implementation and at the same time keep things organized. It also makes the codebase easy to navigate, modify
+					and scale to add new features.
+				</section>
+				<section>The architecture of a project is essential. An organized codebase is how a team of developers gets
+					productive
+					within the given structure in the long run.</section>
+			</section>
+			<section>
+				<section>Disadvantages of React JS</section>
+				<section>Just like with every platform or framework, in spite of its numerous benefits, React JS does have some
+					disadvantages.w
+
+					Fortunately, they are very few in number. They are:</section>
+				<section>Lack of adequate documentation – in spite of there being a large community of React users and
+					developers, there is a need for more documentation.</section>
+				<section>Only covers User interface – it is not possible to develop the entire application using only react js;
+					we need to use other languages as well.</section>
+				<section>High pace – the development of applications based in React is very fast, and it can put a lot of
+					pressure on the developer.</section>
+				<section>Migrating data from React Js can be time consuming and cumbersome; if you are unsure about the app’s
+					future, you may have to go in a different direction for your frontend framework.</section>
+				<section>Setting up React can take more time than other popular frameworks like Vue</section>
+			</section>
+			<section>
+				<section>Conclusion</section>
+				<section>React is a JavaScript-based front-end development framework that offers immense benefits to developers
+					as well as business owners – small wonder then, that this framework shot to popularity rapidly, and is the hot
+					favourite today.</section>
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
